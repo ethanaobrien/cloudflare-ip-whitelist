@@ -1,0 +1,14 @@
+{
+  "name": "Cloudflare whitelist",
+  "id": "cf_whitelist",
+  "script": "index.js",
+  "options": [
+    {
+      "id": "cloudflare",
+      "name": "Block non-cloudflare ips",
+      "description": "Blocks any request made from a non-cloudflare ip address.",
+      "type": "bool",
+      "default": true
+    }
+  ]
+}
